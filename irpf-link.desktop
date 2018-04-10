@@ -1,0 +1,13 @@
+[Desktop Entry]
+ Name=IRPF
+ Comment=Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física
+ Keywords=irpf;declaração;anual;imposto;renda;pessoa;física;
+ StartupNotify=true
+ Terminal=false
+ Encoding=UTF-8
+ Type=Application
+ Categories=Office;
+ MimeType=application/java-archive
+ Icon=/opt/irpf/irpf.png
+ Path=/opt/irpf
+ Exec=java -Xms128M -Xmx512M -jar irpf.jar
