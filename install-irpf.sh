@@ -4,7 +4,8 @@ sudo rm -Rf /opt/irpf
 sudo rm -Rf /usr/share/applications/irpf.desktop
 
 echo "Realizar o download do aplicativo"
-wget http://downloadirpf.receita.fazenda.gov.br/irpf/2018/irpf/arquivos/IRPF2018-1.4.zip -O irpf.zip
+#wget http://downloadirpf.receita.fazenda.gov.br/irpf/2018/irpf/arquivos/IRPF2018-1.4.zip -O irpf.zip
+wget http://downloadirpf.receita.fazenda.gov.br/irpf/2019/irpf/arquivos/IRPF2019-1.5.zip -O irpf.zip
 
 echo "Instalando o aplicativo em /opt/irpf"
 sudo unzip irpf.zip -d /opt
